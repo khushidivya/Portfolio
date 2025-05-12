@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    color: black
+}
+.nav {
+   display: flex;
+    justify-content: space-between;
+    
+}
+.ul{
+    text-transform: capitalize;
+    color: burlywood;
+   justify-content: space-around;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
