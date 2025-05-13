@@ -40,8 +40,11 @@ margin-right: 10px;
 
 /* i .fa-solid fa-house :hover {} */
 
-
+.bg{
+    background-color: rgba(221, 160, 221, 0.731);
+}
         .header {
+            text-transform: uppercase;
             text-align: center;
             padding: 30px;
             font-size: 2.5em;
@@ -67,12 +70,15 @@ margin-right: 10px;
         }
 
         .portfolio-text h1 {
+            color: rgb(216, 75, 216);
             font-size: 2em;
             margin-bottom: 20px;
         }
 
         .portfolio-text p {
             text-align: justify;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
             font-size: 1.2em;
             line-height: 1.6;
         }
@@ -85,7 +91,6 @@ margin-right: 10px;
         .portfolio-image img {
             border-radius: 30px;
             border:  plum solid 2px;
-
             max-width: 50%;
             height: auto;
             border-radius: 8px;
