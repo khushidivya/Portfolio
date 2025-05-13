@@ -8,6 +8,8 @@
 }
 
 .navbar {
+margin-left: 10px;
+margin-right: 10px;
 
     display: flex;
     color: black;
@@ -22,9 +24,13 @@
     display: flex;
     justify-content: space-between;
 }
-
+.n{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 .ul {
-    
+    margin-left: 10px;
+    margin-bottom: 10px;
     text-transform: capitalize;
     color: plum;
     font-size: medium;
@@ -49,10 +55,11 @@
             align-items: center;
             padding: 50px;
             background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(49, 45, 45, 0.927);
             max-width: 900px;
             margin: 20px auto;
             border-radius: 8px;
+            border: #333 2px solid;
         }
 
         .portfolio-text {
@@ -65,6 +72,7 @@
         }
 
         .portfolio-text p {
+            text-align: justify;
             font-size: 1.2em;
             line-height: 1.6;
         }
@@ -75,7 +83,10 @@
         }
 
         .portfolio-image img {
-            max-width: 100%;
+            border-radius: 30px;
+            border:  plum solid 2px;
+
+            max-width: 50%;
             height: auto;
             border-radius: 8px;
         }
